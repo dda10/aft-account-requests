@@ -3,7 +3,7 @@
 # =============================================================================
 
 module "network_hub_account" {
-  source = "github.com/aws-ia/terraform-aws-control_tower_account_factory//modules/aft-account-request"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "duyanh+network@mz.co.kr"
